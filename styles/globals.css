@@ -1,5 +1,4 @@
 /* Глобальные стили для проекта, их можно дополнять и менять по желанию */
-
 *,
 *::before,
 *::after {
@@ -33,10 +32,22 @@ picture {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
 button,
 a {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
 }
